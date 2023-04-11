@@ -9,7 +9,7 @@ export default function Layout({ children }) {
 				}
 			>
 				<Sidebar />
-				<div className={'my-3 basis-2/3 overflow-auto scrollbar-none'}>{children}</div>
+				<div className={'my-3 lg:basis-2/3 overflow-auto scrollbar-none'}>{children}</div>
 			</div>
 		</div>
 	);
