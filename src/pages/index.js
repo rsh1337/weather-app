@@ -1,7 +1,6 @@
 import HeaderInfo from '@/components/UI/HeaderInfo';
 import Weekly from '@/components/Weekly';
 import DailyTemp from '@/components/DailyTemp';
-import HumidityBox from '@/components/UI/InfoBox';
 import InfoBox from '@/components/UI/InfoBox';
 
 export default function Index() {
