@@ -7,7 +7,7 @@ export default function CityCard({ cityName, icon, temp, lowTemp, highTemp }) {
 				'flex flex-row items-center justify-between backdrop-opacity-50 bg-[#E2EAFC]/30 p-3 rounded-2xl'
 			}
 		>
-			<div className={'flex flex-col items-center gap-1'}>
+			<div className={'flex flex-col gap-1'}>
 				<Image
 					src={`/weather-icons/${icon}`}
 					alt={'Icon'}
