@@ -4,6 +4,7 @@ export default function Document() {
 	return (
 		<Html lang="en">
 			<Head>
+				<link rel="shortcut icon" href="/weather-icons/moon.svg" />
 				<link
 					rel="apple-touch-icon"
 					href="/assets/apple-icon-180.png"
