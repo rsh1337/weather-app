@@ -1,10 +1,10 @@
 import Image from 'next/image';
 
-export default function InfoCard({ label, icon, label2 }) {
+export default function InfoCard({ temp, icon, day }) {
 	return (
 		<div
 			className={
-				'flex flex-row items-center justify-between backdrop-opacity-50 bg-[#E2EAFC]/30 p-3 rounded-2xl w-[15rem]'
+				'flex flex-row items-center justify-between p-3 rounded-2xl'
 			}
 		>
 			<div className={"flex flex-row items-center gap-2"}>
@@ -14,9 +14,9 @@ export default function InfoCard({ label, icon, label2 }) {
 					width={35}
 					height={35}
 				/>
-				<h1>{label2}</h1>
+				<h1>{day}</h1>
 			</div>
-			<h1>{label}</h1>
+			<h1>{temp}°C</h1>
 		</div>
 	);
 }

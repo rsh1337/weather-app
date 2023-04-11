@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Adding icons for weather + layout">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/InfoCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/weather-app.iml" beforeDir="false" />
+    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Create HeaderInfo">
+      <change afterPath="$PROJECT_DIR$/src/components/DailyTemp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/HourPill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Weekly.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/InfoCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/InfoCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OHlGggqOH7T7TdU1Ovif4nn5WE" />
   <component name="ProjectViewState">
@@ -51,6 +57,28 @@
       <recent name="$PROJECT_DIR$/src/components/UI" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,6 +89,8 @@
       <updated>1681225293774</updated>
       <workItem from="1681225295722" duration="8560000" />
       <workItem from="1681237099985" duration="196000" />
+      <workItem from="1681237334882" duration="9013000" />
+      <workItem from="1681247638651" duration="1843000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1681225698014</created>
@@ -83,7 +113,35 @@
       <option name="project" value="LOCAL" />
       <updated>1681237183102</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Rename icons, create info card UI">
+      <created>1681239230164</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681239230164</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update Icons">
+      <created>1681239610460</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681239610460</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Create city card">
+      <created>1681242899791</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681242899791</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Create HeaderInfo">
+      <created>1681245803774</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681245803774</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +162,10 @@
     <MESSAGE value="Init" />
     <MESSAGE value="Adding icons for pwa" />
     <MESSAGE value="Adding icons for weather + layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding icons for weather + layout" />
+    <MESSAGE value="Rename icons, create info card UI" />
+    <MESSAGE value="Update Icons" />
+    <MESSAGE value="Create city card" />
+    <MESSAGE value="Create HeaderInfo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create HeaderInfo" />
   </component>
 </project>
