@@ -8,9 +8,7 @@ export default function Document() {
 					rel="apple-touch-icon"
 					href="/assets/apple-icon-180.png"
 				/>
-
 				<meta name="apple-mobile-web-app-capable" content="yes" />
-
 				<link
 					rel="apple-touch-startup-image"
 					href="/assets/apple-splash-2048-2732.jpg"
@@ -161,6 +159,7 @@ export default function Document() {
 					href="/assets/apple-splash-1136-640.jpg"
 					media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
 				/>
+				<link rel="manifest" href="/manifest.json" />
 			</Head>
 			<body>
 				<Main />
