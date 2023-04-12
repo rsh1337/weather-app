@@ -13,7 +13,7 @@ export default function Index({isOpen}) {
 			<div className={'mt-12 rounded-xl'}>
 				<DailyTemp />
 			</div>
-			<div className={`flex flex-row flex-wrap justify-center sm:grid sm:grid-cols-3 md:grid-cols-4 2xl:grid-cols-8 xl:grid-cols-6 lg:${gridClass} grid-rows-3 grid-flow-dense gap-3 mt-3`}>
+			<div className={`flex flex-row flex-wrap justify-center sm:grid sm:grid-cols-3 md:grid-cols-4 2xl:grid-cols-8 lg:${gridClass} grid-rows-3 grid-flow-dense gap-3 mt-3`}>
 				<div className={"col-span-2 row-span-3"}>
 					<Weekly />
 				</div>
