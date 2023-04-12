@@ -12,7 +12,7 @@ export default function Index() {
 			<div className={'mt-12'}>
 				<DailyTemp />
 			</div>
-			<div className={'grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 grid-rows-2 grid-flow-dense gap-5 mt-3'}>
+			<div className={'grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 grid-rows-3 grid-flow-dense gap-3 mt-3'}>
 				<div className={"col-span-2 row-span-3"}>
 					<Weekly />
 				</div>
