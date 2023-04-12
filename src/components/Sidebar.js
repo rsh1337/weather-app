@@ -1,11 +1,21 @@
 import Image from 'next/image';
 import CityCard from '@/components/UI/CityCard';
+import { Transition } from '@headlessui/react';
 
-export default function Sidebar() {
+export default function Sidebar({isOpen}) {
 	return (
+			<Transition
+				show={isOpen}
+				enter="transition duration-100 ease-out"
+				enterFrom="transform scale-95 opacity-0"
+				enterTo="transform scale-100 opacity-100"
+				leave="transition duration-75 ease-out"
+				leaveFrom="transform scale-100 opacity-100"
+				leaveTo="transform scale-95 opacity-0"
+			>
 			<div
 				className={
-					'w-[20rem] h-[80vh] backdrop-opacity-5 bg-[#E2EAFC]/30 rounded-xl p-4 overflow-auto scrollbar-none'
+					'w-[20rem] h-[80vh] mt-[4rem] backdrop-opacity-5 bg-[#E2EAFC]/30 rounded-xl p-4 overflow-auto scrollbar-none'
 				}
 			>
 				<div
@@ -45,5 +55,6 @@ export default function Sidebar() {
 					/>
 				</div>
 			</div>
+			</Transition>
 	);
 }

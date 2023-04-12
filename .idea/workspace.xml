@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="[In Progress] Responsive">
+    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Responsive sidebar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Weekly.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weekly.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +84,7 @@
       <workItem from="1681237099985" duration="196000" />
       <workItem from="1681237334882" duration="9013000" />
       <workItem from="1681247638651" duration="8192000" />
-      <workItem from="1681287413111" duration="6942000" />
+      <workItem from="1681287413111" duration="9192000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1681225698014</created>
@@ -167,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681255561398</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Responsive sidebar">
+      <created>1681294502502</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681294502502</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +199,7 @@
     <MESSAGE value="Added Grid to weather info" />
     <MESSAGE value="." />
     <MESSAGE value="[In Progress] Responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="[In Progress] Responsive" />
+    <MESSAGE value="Responsive sidebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsive sidebar" />
   </component>
 </project>

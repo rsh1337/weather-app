@@ -3,7 +3,8 @@ import Weekly from '@/components/Weekly';
 import DailyTemp from '@/components/DailyTemp';
 import InfoBox from '@/components/UI/InfoBox';
 
-export default function Index() {
+export default function Index({isOpen}) {
+	const gridClass = isOpen ? 'grid-cols-5' : 'grid-cols-6';
 	return (
 		<div className={'flex flex-col'}>
 			<div className={'flex flex-col w-full gap-12 items-center justify-center'}>
@@ -12,7 +13,7 @@ export default function Index() {
 			<div className={'mt-12'}>
 				<DailyTemp />
 			</div>
-			<div className={'grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 grid-rows-3 grid-flow-dense gap-3 mt-3'}>
+			<div className={`grid sm:grid-cols-2 md:grid-cols-4 xl:${gridClass} grid-rows-3 grid-flow-dense gap-3 mt-3`}>
 				<div className={"col-span-2 row-span-3"}>
 					<Weekly />
 				</div>
