@@ -18,7 +18,7 @@ export default function Layout({ children }) {
 					<Hamburger toggled={isOpen} toggle={setOpen} size={20} />
 				</button>
 				<Sidebar isOpen={isOpen} />
-				<div className={`my-3 md:ml-4 md:blur-0 ${blurClass} transition-all overflow-auto scrollbar-none`}>
+				<div className={`my-3 w-screen md:ml-4 lg:blur-0 ${blurClass} transition-all overflow-auto scrollbar-none`}>
 					{React.Children.map(children, (child) =>
 						React.cloneElement(child, { isOpen })
 					)}
