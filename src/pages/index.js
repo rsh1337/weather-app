@@ -6,14 +6,14 @@ import InfoBox from '@/components/UI/InfoBox';
 export default function Index({isOpen}) {
 	const gridClass = isOpen ? 'grid-cols-5' : 'grid-cols-6';
 	return (
-		<div className={'flex flex-col'}>
+		<div className={`flex flex-col`}>
 			<div className={'flex flex-col w-full gap-12 items-center justify-center'}>
 				<HeaderInfo icon={'sunny.svg'} lowTemp={'10'} highTemp={'20'} temp={'12'} city={'Bacau'} />
 			</div>
-			<div className={'mt-12'}>
+			<div className={'mt-12 rounded-xl'}>
 				<DailyTemp />
 			</div>
-			<div className={`grid sm:grid-cols-2 md:grid-cols-4 xl:${gridClass} grid-rows-3 grid-flow-dense gap-3 mt-3`}>
+			<div className={`flex flex-row flex-wrap justify-center sm:grid sm:grid-cols-3 md:grid md:grid-cols-4 xl:${gridClass} grid-rows-3 grid-flow-dense gap-3 mt-3`}>
 				<div className={"col-span-2 row-span-3"}>
 					<Weekly />
 				</div>

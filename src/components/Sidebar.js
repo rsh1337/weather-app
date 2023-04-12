@@ -15,7 +15,7 @@ export default function Sidebar({isOpen}) {
 			>
 			<div
 				className={
-					'w-[20rem] h-[80vh] mt-[4rem] backdrop-opacity-5 bg-[#E2EAFC]/30 rounded-xl p-4 overflow-auto scrollbar-none'
+					'w-[20rem] h-[80vh] ml-2 md:ml-0 mt-[4rem] backdrop-opacity-5 bg-[#E2EAFC]/30 rounded-xl p-4 overflow-auto scrollbar-none'
 				}
 			>
 				<div
