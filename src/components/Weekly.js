@@ -7,10 +7,34 @@ export default function Weekly({ longitude, latitude }) {
     );
     console.log(data);
     if (error) {
-        return <h1>Error fetching data</h1>;
+        return(
+            <div
+                className={
+                    'flex flex-col w-[20.5rem] md:w-[21rem] gap-2 rounded-xl backdrop-opacity-50 bg-[#E2EAFC]/30 p-2 divide-y divide-[#B6CCFE]'
+                }
+            >
+                <h1 className={'text-sm font-thin uppercase text-center '}>
+                    7 Days Forecast
+                </h1>
+                <div className={'flex items-center flex-col gap-1'}>
+                    Fetching Error
+                </div>
+            </div>
+        )
     }
     if (!data) {
-        return <p>Fetching location...</p>;
+        return(
+            <div
+                className={
+                    'flex flex-col w-[20.5rem] md:w-[21rem] gap-2 rounded-xl backdrop-opacity-50 bg-[#E2EAFC]/30 p-2 divide-y divide-[#B6CCFE] animate-pulse'
+                }
+            >
+                <h1 className={'text-sm font-thin uppercase text-center '}>
+                    7 Days Forecast
+                </h1>
+                <div className={'flex items-center h-12 flex-col gap-1'}/>
+            </div>
+        )
     }
     return (
         <div
