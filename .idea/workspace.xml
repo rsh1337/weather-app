@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Fix responsive grid" />
+    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Remove xl size from index">
+      <change afterPath="$PROJECT_DIR$/src/components/informations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/api/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/hello.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +88,9 @@
       <workItem from="1681247638651" duration="8192000" />
       <workItem from="1681287413111" duration="12972000" />
       <workItem from="1681305353389" duration="1325000" />
-      <workItem from="1681330942133" duration="2961000" />
+      <workItem from="1681330942133" duration="3633000" />
+      <workItem from="1681334591779" duration="9000" />
+      <workItem from="1681389516217" duration="4163000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1681225698014</created>
@@ -195,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681333742529</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Remove xl size from index">
+      <created>1681333985885</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681333985885</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +245,7 @@
     <MESSAGE value="Bg blur if sidebar is open" />
     <MESSAGE value="Fix 7day forecast size for mobile" />
     <MESSAGE value="Fix responsive grid" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix responsive grid" />
+    <MESSAGE value="Remove xl size from index" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove xl size from index" />
   </component>
 </project>

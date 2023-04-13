@@ -39,20 +39,6 @@ export default function Sidebar({isOpen}) {
 						highTemp={'93°C'}
 						lowTemp={'0°C'}
 					/>
-					<CityCard
-						icon={'cloudy.svg'}
-						cityName={'Brasov'}
-						temp={'-20°C'}
-						highTemp={'23°C'}
-						lowTemp={'2°C'}
-					/>
-					<CityCard
-						icon={'cloudy.svg'}
-						cityName={'Baicoi'}
-						temp={'0°C'}
-						highTemp={'3°C'}
-						lowTemp={'-0°C'}
-					/>
 				</div>
 			</div>
 			</Transition>
