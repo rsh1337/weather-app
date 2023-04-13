@@ -1,3 +1,4 @@
+import geoip from 'geoip-lite';
 export default async function handler(req, res) {
   const {long, lat} = req.query
   const response = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${long}&longitude=${lat}&hourly=temperature_2m,relativehumidity_2m,precipitation_probability,weathercode,windspeed_10m,uv_index&current_weather=true&timezone=auto`);
@@ -20,5 +21,9 @@ export default async function handler(req, res) {
     }
   }).filter((data) => data !== undefined);
   console.log(dataForTime);
-  return res.status(200).json({data: dataForTime});
+
+  const ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
+  const geo = geoip.lookup(ip);
+  const city = geo ? geo.city : 'unknown';
+  return res.status(200).json({data: dataForTime, city: city});
 }

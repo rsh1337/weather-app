@@ -164,7 +164,7 @@ export default function Index({ isOpen }) {
 							// lowTemp={'10'}
 							// highTemp={'20'}
 							temp={`${meteo.data[0].temperature}`}
-							city={'Piatra-Neamt'}
+							city={`${meteo.city}`}
 						/>
 					</div>
 					<div className={'mt-12 rounded-xl'}>
