@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="[In Progress] Implementing The API">
-      <change afterPath="$PROJECT_DIR$/src/pages/api/24hrsForecast.js" afterDir="false" />
+    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="[In Progress] Adding 24h forecast">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DailyTemp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DailyTemp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/api/7dayForecast.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/7dayForecast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/InfoBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/InfoBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +88,7 @@
       <workItem from="1681305353389" duration="1325000" />
       <workItem from="1681330942133" duration="3633000" />
       <workItem from="1681334591779" duration="9000" />
-      <workItem from="1681389516217" duration="18554000" />
+      <workItem from="1681389516217" duration="19215000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1681225698014</created>
@@ -224,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681409014558</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="[In Progress] Adding 24h forecast">
+      <created>1681414952426</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1681414952426</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +267,7 @@
     <MESSAGE value="Remove xl size from index" />
     <MESSAGE value="Fix informations grid + fetch data from API" />
     <MESSAGE value="[In Progress] Implementing The API" />
-    <option name="LAST_COMMIT_MESSAGE" value="[In Progress] Implementing The API" />
+    <MESSAGE value="[In Progress] Adding 24h forecast" />
+    <option name="LAST_COMMIT_MESSAGE" value="[In Progress] Adding 24h forecast" />
   </component>
 </project>

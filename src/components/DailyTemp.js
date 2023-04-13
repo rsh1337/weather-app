@@ -1,7 +1,6 @@
 import HourPill from "@/components/UI/HourPill";
 import useSWR from "swr";
 import {fetcher} from "../../lib/fetcher";
-import InfoCard from "@/components/UI/InfoCard";
 
 export default function DailyTemp({latitude, longitude}){
     const { data, error } = useSWR(`/api/24hrsForecast?lat=${latitude}&long=${longitude}`,fetcher

@@ -66,7 +66,7 @@ export default function Index({ isOpen }) {
 						<div className={"col-span-2 row-span-3"}>
 							<Weekly latitude={latitude} longitude={longitude} />
 						</div>
-						<InfoBox icon={'sunrise.svg'} data={'09:00PM'} title={'Sun Rise'} />
+						{/*<InfoBox icon={'sunrise.svg'} data={'09:00PM'} title={'Sun Rise'} />*/}
 						<InfoBox icon={'humidity.svg'} data={`${meteo.data[0].relativehumidity_2m}%`} title={'Humidity'} />
 						<InfoBox icon={'windy.svg'} data={`${meteo.data[0].windspeed}km/h`} title={'Wind'} />
 						<InfoBox icon={'0.svg'} data={`${meteo.data[0].uv_index}`} title={'UV Index'} />

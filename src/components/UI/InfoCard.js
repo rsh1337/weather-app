@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function InfoCard({ temp, icon, day }) {
+export default function InfoCard({ tempMin, tempMax, icon, day }) {
 	return (
 		<div
 			className={
@@ -16,7 +16,10 @@ export default function InfoCard({ temp, icon, day }) {
 				/>
 				<h1>{day}</h1>
 			</div>
-			<h1>{temp}°C</h1>
+			<div className={"text-sm flex flex-col items-end"}>
+				<h1>Min: {tempMin}°C</h1>
+				<h1>Max: {tempMax}°C</h1>
+			</div>
 		</div>
 	);
 }
