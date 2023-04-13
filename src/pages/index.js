@@ -5,6 +5,7 @@ import useSWR from 'swr';
 import { fetcher } from '../../lib/fetcher';
 import Weekly from '@/components/Weekly';
 import InfoBox from '@/components/UI/InfoBox';
+import Image from "next/image";
 
 export default function Index({ isOpen }) {
 	const [location, setLocation] = useState(null);
@@ -21,7 +22,6 @@ export default function Index({ isOpen }) {
 			);
 		} else {
 			console.error('Geolocation Error.');
-			setLocation('error');
 		}
 	}, []);
 
@@ -34,7 +34,7 @@ export default function Index({ isOpen }) {
 			: null,
 		fetcher
 	);
-	if (!meteo) {
+	if (!meteo && location !== null) {
 		return (
 			<div className={`flex flex-col animate-pulse`}>
 				<div
@@ -152,7 +152,7 @@ export default function Index({ isOpen }) {
 	}
 	return (
 		<div className={`flex flex-col`}>
-			{location !== 'error' ? (
+			{location ? (
 				<>
 					<div
 						className={
@@ -202,7 +202,21 @@ export default function Index({ isOpen }) {
 					</div>
 				</>
 			) : (
-				<p>Fetching location...</p>
+				<div className={"flex justify-center h-[85vh] items-center"}>
+					<div
+						className={
+							'flex items-center w-1/4 flex-row gap-3 backdrop-opacity-5 bg-[#E2EAFC]/30 p-3 rounded-xl'
+						}
+					>
+						<Image
+							src={'/Icons/search.svg'}
+							alt={'Search Icon'}
+							width={30}
+							height={30}
+						/>
+						<h1 className={'font-thin text-gray-500'}>Search Your City</h1>
+					</div>
+				</div>
 			)}
 		</div>
 	);
