@@ -10,7 +10,7 @@ export default function Informations({isOpen}){
             <InfoBox icon={'sunrise.svg'} data={'09:00PM'} title={'Sun Rise'} />
             <InfoBox icon={'humidity.svg'} data={'50%'} title={'Humidity'} />
             <InfoBox icon={'windy.svg'} data={'14km/h'} title={'Wind'} />
-            <InfoBox icon={'sunny.svg'} data={'100'} title={'UV Index'} />
+            <InfoBox icon={'0.svg'} data={'100'} title={'UV Index'} />
             <InfoBox icon={'umbrella.svg'} data={'10%'} title={'Precipitation'} />
         </div>
     )

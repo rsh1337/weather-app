@@ -33,7 +33,7 @@ export default function Sidebar({isOpen}) {
 				</div>
 				<div className={'mt-5 flex flex-col gap-3'}>
 					<CityCard
-						icon={'cloudy.svg'}
+						icon={'3.svg'}
 						cityName={'Piatra-Neamt'}
 						temp={'20°C'}
 						highTemp={'93°C'}
