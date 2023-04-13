@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="[In Progress] Adding 24h forecast">
+    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Change package start port">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DailyTemp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DailyTemp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/InfoBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/InfoBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +85,7 @@
       <workItem from="1681305353389" duration="1325000" />
       <workItem from="1681330942133" duration="3633000" />
       <workItem from="1681334591779" duration="9000" />
-      <workItem from="1681389516217" duration="19215000" />
+      <workItem from="1681389516217" duration="20089000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1681225698014</created>
@@ -230,7 +227,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681414952426</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="[In Progress] Adding min and max temps for 7 days forecast">
+      <created>1681415534251</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1681415534251</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Change package start port">
+      <created>1681415773919</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1681415773919</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +279,8 @@
     <MESSAGE value="Fix informations grid + fetch data from API" />
     <MESSAGE value="[In Progress] Implementing The API" />
     <MESSAGE value="[In Progress] Adding 24h forecast" />
-    <option name="LAST_COMMIT_MESSAGE" value="[In Progress] Adding 24h forecast" />
+    <MESSAGE value="[In Progress] Adding min and max temps for 7 days forecast" />
+    <MESSAGE value="Change package start port" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change package start port" />
   </component>
 </project>

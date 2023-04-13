@@ -31,5 +31,6 @@
   "background_color": "#ABC4FF",
   "start_url": "/",
   "display": "standalone",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "geolocation": true
 }
