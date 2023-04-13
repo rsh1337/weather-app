@@ -60,7 +60,7 @@ export default function Index({ isOpen }) {
 						/>
 					</div>
 					<div className={'mt-12 rounded-xl'}>
-						<DailyTemp />
+						<DailyTemp latitude={latitude} longitude={longitude}  />
 					</div>
 					<div className={`flex flex-row flex-wrap justify-center md:grid sm:grid-cols-3 md:grid-cols-4 2xl:grid-cols-8 grid-rows-3 grid-flow-dense gap-3 mt-3 ${isOpen ? 'lg:grid-cols-5' : 'lg:grid-cols-6'}`}>
 						<div className={"col-span-2 row-span-3"}>

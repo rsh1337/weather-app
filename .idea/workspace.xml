@@ -4,28 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Fix informations grid + fetch data from API">
-      <change afterPath="$PROJECT_DIR$/lib/fetcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/api/7dayForecast.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/api/currentMeteo.js" afterDir="false" />
+    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="[In Progress] Implementing The API">
+      <change afterPath="$PROJECT_DIR$/src/pages/api/24hrsForecast.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/weather-icons/cloudy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/weather-icons/3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/weather-icons/foggy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/weather-icons/45.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/weather-icons/lightning.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/weather-icons/95.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/weather-icons/partly-cloudy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/weather-icons/2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/weather-icons/rainy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/weather-icons/63.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/weather-icons/snowflake.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/weather-icons/71.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/weather-icons/sunny.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/weather-icons/0.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DailyTemp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DailyTemp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/HeaderInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/HeaderInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Weekly.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weekly.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/informations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/informations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/api/hello.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/api/7dayForecast.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/7dayForecast.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +89,7 @@
       <workItem from="1681305353389" duration="1325000" />
       <workItem from="1681330942133" duration="3633000" />
       <workItem from="1681334591779" duration="9000" />
-      <workItem from="1681389516217" duration="14353000" />
+      <workItem from="1681389516217" duration="18554000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1681225698014</created>
@@ -233,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681396666211</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="[In Progress] Implementing The API">
+      <created>1681409014558</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1681409014558</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +260,7 @@
     <MESSAGE value="Fix responsive grid" />
     <MESSAGE value="Remove xl size from index" />
     <MESSAGE value="Fix informations grid + fetch data from API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix informations grid + fetch data from API" />
+    <MESSAGE value="[In Progress] Implementing The API" />
+    <option name="LAST_COMMIT_MESSAGE" value="[In Progress] Implementing The API" />
   </component>
 </project>
