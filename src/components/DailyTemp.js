@@ -23,7 +23,6 @@ export default function DailyTemp({latitude, longitude}){
             </div>
         )
     }
-    console.log(data)
     return(
         <div className={"flex flex-col gap-4 rounded-xl backdrop-opacity-50 bg-[#E2EAFC]/30 p-2 divide-y divide-[#B6CCFE]"}>
             <h1 className={"text-sm font-thin uppercase text-center"}>24 Hours Temp</h1>

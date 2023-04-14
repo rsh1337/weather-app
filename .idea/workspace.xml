@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Adding Open wEATHER map for fetching city data" />
+    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Adding all icons for weather" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +85,7 @@
       <workItem from="1681334591779" duration="9000" />
       <workItem from="1681389516217" duration="23300000" />
       <workItem from="1681420345991" duration="1454000" />
+      <workItem from="1681455345197" duration="803000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1681225698014</created>
@@ -289,7 +290,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681421556395</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Adding current city name">
+      <created>1681455499969</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1681455499969</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Adding all icons for weather">
+      <created>1681456193185</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1681456193185</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,8 +322,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Icons" />
-    <MESSAGE value="Create city card" />
     <MESSAGE value="Create HeaderInfo" />
     <MESSAGE value="Create HourPill and Temps per 24h" />
     <MESSAGE value="Added Grid to weather info" />
@@ -332,6 +345,8 @@
     <MESSAGE value="Add geoip to packages" />
     <MESSAGE value="Delete geoip" />
     <MESSAGE value="Adding Open wEATHER map for fetching city data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Open wEATHER map for fetching city data" />
+    <MESSAGE value="Adding current city name" />
+    <MESSAGE value="Adding all icons for weather" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding all icons for weather" />
   </component>
 </project>

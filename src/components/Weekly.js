@@ -3,9 +3,7 @@ import useSWR from 'swr';
 import { fetcher } from '../../lib/fetcher';
 
 export default function Weekly({ longitude, latitude }) {
-    const { data, error } = useSWR(`/api/7dayForecast?lat=${latitude}&long=${longitude}`,fetcher
-    );
-    console.log(data);
+    const { data, error } = useSWR(`/api/7dayForecast?lat=${latitude}&long=${longitude}`,fetcher);
     if (error) {
         return(
             <div

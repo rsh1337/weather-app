@@ -205,7 +205,7 @@ export default function Index({ isOpen }) {
 				<div className={"flex justify-center h-[85vh] items-center"}>
 					<div
 						className={
-							'flex items-center w-1/4 flex-row gap-3 backdrop-opacity-5 bg-[#E2EAFC]/30 p-3 rounded-xl'
+							'flex items-center w-[15rem] flex-row gap-3 backdrop-opacity-5 bg-[#E2EAFC]/30 p-3 rounded-xl'
 						}
 					>
 						<Image

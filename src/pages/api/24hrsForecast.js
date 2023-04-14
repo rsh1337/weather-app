@@ -5,7 +5,6 @@ export default async function handler (req, res) {
     const formattedHourly = data.hourly.time.map(date => {
         return new Date(date * 1000).toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric', hour12: false });
     });
-
     const formattedData = {
         ...data,
         hourly: {
@@ -13,8 +12,6 @@ export default async function handler (req, res) {
             time: formattedHourly,
         },
     };
-
-    console.log(formattedData)
 
     return res.status(200).json(formattedData);
 };
