@@ -6,8 +6,6 @@ import { fetcher } from '../../lib/fetcher';
 import Weekly from '@/components/Weekly';
 import InfoBox from '@/components/UI/InfoBox';
 import SearchBar from "@/components/UI/SearchBar";
-import Push from "push.js";
-
 export default function Index({ isOpen }) {
 	const [location, setLocation] = useState(null);
 
@@ -16,10 +14,6 @@ export default function Index({ isOpen }) {
 			navigator.geolocation.getCurrentPosition(
 				(position) => {
 					setLocation(position.coords);
-					Push.create('High Precipitation Warning', {
-						body: 'There is a high chance of precipitation in the next hour.',
-						icon: '/assets/apple-icon-180.png'
-					});
 				},
 				(error) => {
 					console.error(error);
