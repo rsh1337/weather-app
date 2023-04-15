@@ -9,23 +9,6 @@ import SearchBar from "@/components/UI/SearchBar";
 
 export default function Index({ isOpen }) {
 	const [location, setLocation] = useState(null);
-	const [resultApi, setResultApi] = useState();
-	useEffect(() => {
-		window.OneSignal = window.OneSignal || [];
-		OneSignal.push(function () {
-			OneSignal.init({
-				appId: process.env.ONESIGNAL_ID,
-				notifyButton: {
-					enable: true,
-				},
-
-				allowLocalhostAsSecureOrigin: true,
-			});
-		});
-		return () => {
-			window.OneSignal = undefined;
-		};
-	}, []);
 
 	useEffect(() => {
 		if (navigator.geolocation) {
