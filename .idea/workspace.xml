@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Sidebar cand now fetch data from saved cities, and get current informations">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="When search, sidebar automatically close">
       <change beforePath="$PROJECT_DIR$/src/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/SearchBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/api/currentMeteo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/currentMeteo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/CityCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/CityCard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
       <workItem from="1681420345991" duration="1454000" />
       <workItem from="1681455345197" duration="1958000" />
       <workItem from="1681499324037" duration="995000" />
-      <workItem from="1681549588032" duration="9425000" />
+      <workItem from="1681549588032" duration="9881000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1681225698014</created>
@@ -346,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681557537354</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="When search, sidebar automatically close">
+      <created>1681559165048</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1681559165048</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +370,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Responsive sidebar" />
     <MESSAGE value="Responsive grid cols" />
     <MESSAGE value="Bg blur if sidebar is open" />
     <MESSAGE value="Fix 7day forecast size for mobile" />
@@ -389,6 +394,7 @@
     <MESSAGE value="Implement search bar + api" />
     <MESSAGE value="Create save city button" />
     <MESSAGE value="Sidebar cand now fetch data from saved cities, and get current informations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sidebar cand now fetch data from saved cities, and get current informations" />
+    <MESSAGE value="When search, sidebar automatically close" />
+    <option name="LAST_COMMIT_MESSAGE" value="When search, sidebar automatically close" />
   </component>
 </project>

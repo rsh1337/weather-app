@@ -18,7 +18,7 @@ export default function Layout({ children }) {
 				}
 			>
 				<button
-					className={'h-fit w-fit rounded-xl fixed z-30'}
+					className={'h-fit w-fit rounded-xl absolute z-30'}
 					onClick={() => setOpen(!isOpen)}
 				>
 					<Hamburger toggled={isOpen} toggle={setOpen} size={20} />

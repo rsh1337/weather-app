@@ -34,6 +34,7 @@ export default function Sidebar({ isOpen, closeSidebar }) {
 							cityName={city.name}
 							latitude={city.latitude}
 							longitude={city.longitude}
+							closeSidebar={closeSidebar}
 						/>
 					))}
 				</div>
