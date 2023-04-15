@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import CityCard from '@/components/UI/CityCard';
 import { Transition } from '@headlessui/react';
+import SearchBar from "@/components/UI/SearchBar";
 
 export default function Sidebar({isOpen}) {
 	return (
@@ -18,19 +19,7 @@ export default function Sidebar({isOpen}) {
 					'w-[20rem] h-[80vh] ml-2 md:ml-0 mt-[4rem] backdrop-opacity-5 bg-[#E2EAFC]/30 rounded-xl p-4 overflow-auto scrollbar-none'
 				}
 			>
-				<div
-					className={
-						'flex items-center flex-row gap-3 backdrop-opacity-5 bg-[#E2EAFC]/30 p-3 rounded-xl'
-					}
-				>
-					<Image
-						src={'/Icons/search.svg'}
-						alt={'Search Icon'}
-						width={30}
-						height={30}
-					/>
-					<h1 className={'font-thin text-gray-500'}>Search</h1>
-				</div>
+				<SearchBar/>
 				<div className={'mt-5 flex flex-col gap-3'}>
 					<CityCard
 						icon={'3.svg'}
