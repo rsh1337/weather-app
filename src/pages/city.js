@@ -4,8 +4,8 @@ import useSWR from 'swr';
 import { fetcher } from '../../lib/fetcher';
 import Weekly from '@/components/Weekly';
 import InfoBox from '@/components/UI/InfoBox';
-import SearchBar from "@/components/UI/SearchBar";
 import {useRouter} from "next/router";
+import SaveButton from "@/components/UI/SaveButton";
 
 export default function City({ isOpen }) {
     const router = useRouter();
@@ -135,6 +135,7 @@ export default function City({ isOpen }) {
     }
     return (
         <div className={`flex flex-col`}>
+            <SaveButton cityName={meteo.city} long={longitude} lat={latitude}/>
                     <div
                         className={
                             'flex flex-col w-full gap-12 items-center justify-center'

@@ -5,6 +5,5 @@ export default async function handler (req, res) {
     if(!data.results){
         return res.status(400).json({error: true, message:"City not found"});
     }
-
     return res.status(200).json(data.results[0]);
 };
