@@ -12,6 +12,5 @@ export default async function handler (req, res) {
             time: formattedHourly,
         },
     };
-
     return res.status(200).json(formattedData);
 };

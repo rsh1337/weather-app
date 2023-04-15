@@ -24,16 +24,28 @@ export default function Index({ isOpen }) {
 			console.error('Geolocation Error.');
 		}
 	}, []);
+	function randomNotification() {
+		const notifTitle = "WeatherApp";
+		const notifBody = `Created by Rsh.`;
+		const notifImg = `/logo.png`;
+		const options = {
+			body: notifBody,
+			icon: notifImg,
+		};
+		new Notification(notifTitle, options);
+		setTimeout(randomNotification, 5000);
+	}
+
 
 	function notifyMe() {
 		if (!("Notification" in window)) {
 			alert("This browser does not support desktop notification");
 		} else if (Notification.permission === "granted") {
-			const notification = new Notification("Hi there!");
+			randomNotification()
 		} else if (Notification.permission !== "denied") {
 			Notification.requestPermission().then((permission) => {
 				if (permission === "granted") {
-					const notification = new Notification("Hi there!");
+					randomNotification()
 				}
 			});
 		}
