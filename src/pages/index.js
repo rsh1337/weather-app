@@ -5,7 +5,6 @@ import useSWR from 'swr';
 import { fetcher } from '../../lib/fetcher';
 import Weekly from '@/components/Weekly';
 import InfoBox from '@/components/UI/InfoBox';
-import Image from "next/image";
 import SearchBar from "@/components/UI/SearchBar";
 
 export default function Index({ isOpen }) {

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import {useState} from "react";
-import toast, {Toaster} from "react-hot-toast";
+import toast from "react-hot-toast";
 import {useRouter} from "next/router";
 
 export default function SearchBar(){

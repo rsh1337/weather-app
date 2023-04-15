@@ -1,9 +1,10 @@
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
+import {useRouter} from "next/router";
 
 export default function SaveButton({ cityName, lat, long }) {
 	const [isSaved, setIsSaved] = useState(false);
-
+	const router = useRouter()
 	useEffect(() => {
 		const cities = JSON.parse(localStorage.getItem('cities')) || [];
 		const cityExists = cities.some(
@@ -32,6 +33,7 @@ export default function SaveButton({ cityName, lat, long }) {
 			);
 			localStorage.setItem('cities', JSON.stringify(filteredCities));
 			setIsSaved(false);
+			return router.reload()
 		} else {
 			const cityInfo = {
 				name: cityName,
@@ -41,6 +43,7 @@ export default function SaveButton({ cityName, lat, long }) {
 			cities.push(cityInfo);
 			localStorage.setItem('cities', JSON.stringify(cities));
 			setIsSaved(true);
+			return router.reload()
 		}
 	};
 
