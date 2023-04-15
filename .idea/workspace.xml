@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="[Testing] Notification Api" />
+    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="NoMoReNoTiFiCaTiOnS">
+      <change afterPath="$PROJECT_DIR$/lib/push.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/api/notification.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/notification.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +95,7 @@
       <workItem from="1681420345991" duration="1454000" />
       <workItem from="1681455345197" duration="1958000" />
       <workItem from="1681499324037" duration="995000" />
-      <workItem from="1681549588032" duration="16213000" />
+      <workItem from="1681549588032" duration="17155000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1681225698014</created>
@@ -376,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681574451417</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="NoMoReNoTiFiCaTiOnS">
+      <created>1681575075775</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1681575075775</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +409,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix 7day forecast size for mobile" />
     <MESSAGE value="Fix responsive grid" />
     <MESSAGE value="Remove xl size from index" />
     <MESSAGE value="Fix informations grid + fetch data from API" />
@@ -419,6 +433,7 @@
     <MESSAGE value="When search, sidebar automatically close" />
     <MESSAGE value="When press on a city card, sidebar automatically close" />
     <MESSAGE value="[Testing] Notification Api" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Testing] Notification Api" />
+    <MESSAGE value="NoMoReNoTiFiCaTiOnS" />
+    <option name="LAST_COMMIT_MESSAGE" value="NoMoReNoTiFiCaTiOnS" />
   </component>
 </project>
