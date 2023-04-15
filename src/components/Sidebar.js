@@ -3,7 +3,7 @@ import CityCard from "@/components/UI/CityCard";
 import { Transition } from "@headlessui/react";
 import SearchBar from "@/components/UI/SearchBar";
 
-export default function Sidebar({ isOpen }) {
+export default function Sidebar({ isOpen, closeSidebar }) {
 	const [cities, setCities] = useState([]);
 
 	useEffect(() => {
@@ -26,7 +26,7 @@ export default function Sidebar({ isOpen }) {
 					"w-[20rem] h-[80vh] ml-2 md:ml-0 mt-[4rem] backdrop-opacity-5 bg-[#E2EAFC]/30 rounded-xl p-4 overflow-auto scrollbar-none"
 				}
 			>
-				<SearchBar />
+				<SearchBar closeSidebar={closeSidebar} />
 				<div className={"mt-5 flex flex-col gap-3"}>
 					{cities.map((city, index) => (
 						<CityCard

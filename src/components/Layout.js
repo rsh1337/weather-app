@@ -5,6 +5,10 @@ import {Toaster} from "react-hot-toast";
 export default function Layout({ children }) {
 	const [isOpen, setOpen] = useState(false);
 	const blurClass = isOpen ? 'blur-lg' : 'blur-0';
+	const closeSidebar = () => {
+		setOpen(false);
+	};
+
 	return (
 		<div className="bg-[#ABC4FF] min-h-[100vh] p-4">
 			<Toaster />
@@ -19,7 +23,7 @@ export default function Layout({ children }) {
 				>
 					<Hamburger toggled={isOpen} toggle={setOpen} size={20} />
 				</button>
-				<Sidebar isOpen={isOpen} />
+				<Sidebar isOpen={isOpen} closeSidebar={closeSidebar} />
 				<div className={`my-3 w-screen md:ml-4 lg:blur-0 ${blurClass} transition-all overflow-auto scrollbar-none`}>
 					{React.Children.map(children, (child) =>
 						React.cloneElement(child, { isOpen })
