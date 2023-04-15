@@ -4,6 +4,7 @@ export default function Document() {
 	return (
 		<Html lang="en">
 			<Head>
+				<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 				<link rel="shortcut icon" href="/weather-icons/moon.svg" />
 				<link
 					rel="apple-touch-icon"

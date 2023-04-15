@@ -9,6 +9,23 @@ import SearchBar from "@/components/UI/SearchBar";
 
 export default function Index({ isOpen }) {
 	const [location, setLocation] = useState(null);
+	const [resultApi, setResultApi] = useState();
+	useEffect(() => {
+		window.OneSignal = window.OneSignal || [];
+		OneSignal.push(function () {
+			OneSignal.init({
+				appId: process.env.ONESIGNAL_ID,
+				notifyButton: {
+					enable: true,
+				},
+
+				allowLocalhostAsSecureOrigin: true,
+			});
+		});
+		return () => {
+			window.OneSignal = undefined;
+		};
+	}, []);
 
 	useEffect(() => {
 		if (navigator.geolocation) {
@@ -24,32 +41,7 @@ export default function Index({ isOpen }) {
 			console.error('Geolocation Error.');
 		}
 	}, []);
-	function randomNotification() {
-		const notifTitle = "WeatherApp";
-		const notifBody = `Created by Rsh.`;
-		const notifImg = `/logo.png`;
-		const options = {
-			body: notifBody,
-			icon: notifImg,
-		};
-		new Notification(notifTitle, options);
-		setTimeout(randomNotification, 5000);
-	}
 
-
-	function notifyMe() {
-		if (!("Notification" in window)) {
-			alert("This browser does not support desktop notification");
-		} else if (Notification.permission === "granted") {
-			randomNotification()
-		} else if (Notification.permission !== "denied") {
-			Notification.requestPermission().then((permission) => {
-				if (permission === "granted") {
-					randomNotification()
-				}
-			});
-		}
-	}
 
 	const latitude = location ? Number(location.latitude.toFixed(2)) : null;
 	const longitude = location ? Number(location.longitude.toFixed(2)) : null;
@@ -204,7 +196,6 @@ export default function Index({ isOpen }) {
 						<div className={'col-span-2 row-span-3'}>
 							<Weekly latitude={latitude} longitude={longitude} />
 						</div>
-						<button onClick={notifyMe}>Notify me!</button>
 						{/*<InfoBox icon={'sunrise.svg'} data={'09:00PM'} title={'Sun Rise'} />*/}
 						<InfoBox
 							icon={'humidity.svg'}
