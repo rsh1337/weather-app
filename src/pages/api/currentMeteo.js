@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   const {long, lat} = req.query
-  const response = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${long}&longitude=${lat}&hourly=temperature_2m,relativehumidity_2m,precipitation_probability,weathercode,windspeed_10m,uv_index&current_weather=true&timezone=auto`);
+  const response = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${long}&hourly=temperature_2m,relativehumidity_2m,precipitation_probability,weathercode,windspeed_10m,uv_index&current_weather=true`);
   const data = await response.json();
   const hourlyData = data.hourly;
   const currentWeatherData = data.current_weather;
@@ -9,7 +9,7 @@ export default async function handler(req, res) {
     if (currentWeatherData.time === time) {
       return {
         time,
-        temperature: currentWeatherData.temperature,
+        temperature: data.current_weather.temperature,
         windspeed: currentWeatherData.windspeed,
         weathercode: currentWeatherData.weathercode,
         precipitation_probability: hourlyData.precipitation_probability[index],

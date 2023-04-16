@@ -163,7 +163,7 @@ export default function Index({ isOpen }) {
 							icon={`${meteo.data[0].weathercode}.svg`}
 							// lowTemp={'10'}
 							// highTemp={'20'}
-							temp={`${meteo.data[0].temperature}`}
+							temp={meteo.data[0].temperature}
 							city={`${meteo.city}`}
 						/>
 					</div>
