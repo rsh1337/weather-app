@@ -6,7 +6,7 @@ import { fetcher } from '../../lib/fetcher';
 import Weekly from '@/components/Weekly';
 import InfoBox from '@/components/UI/InfoBox';
 import SearchBar from "@/components/UI/SearchBar";
-export default function Index({ isOpen }) {
+export default function Index({ isOpen, closeSidebar }) {
 	const [location, setLocation] = useState(null);
 
 	useEffect(() => {
@@ -203,7 +203,7 @@ export default function Index({ isOpen }) {
 				</>
 			) : (
 				<div className={"flex justify-center h-[85vh] items-center"}>
-					<SearchBar/>
+					<SearchBar closeSidebar={closeSidebar}/>
 				</div>
 			)}
 		</div>

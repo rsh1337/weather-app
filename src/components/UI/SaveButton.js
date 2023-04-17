@@ -48,7 +48,7 @@ export default function SaveButton({ cityName, lat, long }) {
 	};
 
 	return (
-		<button className={'absolute right-0 mr-5'} onClick={toggleSaved}>
+		<button className={'absolute right-0 mr-10'} onClick={toggleSaved}>
 			<Image
 				src={isSaved ? '/Icons/star-2.svg' : '/Icons/star.svg'}
 				alt="Save Icon"

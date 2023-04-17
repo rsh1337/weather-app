@@ -21,7 +21,6 @@ export default function SearchBar({closeSidebar}){
         return router.push(`/city?latitude=${data.latitude}&longitude=${data.longitude}`)
     };
     return(
-        <form onSubmit={handleSearch}>
         <div
             className={
                 `flex items-center ${query !== "" ? 'flex-row-reverse' : 'flex-row'} gap-3 backdrop-opacity-5 bg-[#E2EAFC]/30 p-3 rounded-xl`
@@ -36,6 +35,5 @@ export default function SearchBar({closeSidebar}){
                 />
                 <input className={'font-thin text-gray-500 bg-transparent rounded-xl p-2 focus:outline-0 focus:outline'} placeholder={"Search"} type={"text"} value={query} onChange={e => setQuery(e.target.value)} />
         </div>
-        </form>
     )
 }

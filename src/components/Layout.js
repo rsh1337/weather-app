@@ -26,7 +26,7 @@ export default function Layout({ children }) {
 				<Sidebar isOpen={isOpen} closeSidebar={closeSidebar} />
 				<div className={`my-3 w-screen md:ml-4 lg:blur-0 ${blurClass} transition-all overflow-auto scrollbar-none`}>
 					{React.Children.map(children, (child) =>
-						React.cloneElement(child, { isOpen })
+						React.cloneElement(child, { isOpen, closeSidebar })
 					)}
 				</div>
 			</div>
