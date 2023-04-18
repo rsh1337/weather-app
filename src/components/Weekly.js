@@ -45,7 +45,7 @@ export default function Weekly({ longitude, latitude }) {
             </h1>
             <div className={'flex flex-col gap-1'}>
                 {data.daily.time.map((day, index) => (
-                    <InfoCard icon={`${data.daily.weathercode[index]}.svg`} day={`${day}`} tempMax={`${data.daily.temperature_2m_max[index]}`} tempMin={`${data.daily.temperature_2m_min[index]}`} key={index} />
+                    <InfoCard icon={`${data.daily.weathercode[index]}.svg`} day={`${day}`} tempMax={`${data.daily.temperature_2m_max[index]}`} tempMin={`${data.daily.temperature_2m_min[index]}`} key={index} index={index} longitude={longitude} latitude={latitude} />
                 ))}
             </div>
         </div>
