@@ -8,7 +8,7 @@ function Panel({index, latitude, longitude}) {
 		return(
 			<div
 				className={
-					'absolute drop-shadow-sm -top-16 overflow-y-auto translate-x-2 md:translate-x-80 -ml-2 md:ml-3 backdrop-blur-md bg-[#E2EAFC]/30 z-30 rounded-xl w-full'
+					'absolute drop-shadow-sm -top-16 overflow-y-auto translate-x-2 md:translate-x-80 -ml-2 md:ml-3 backdrop-opacity-80 bg-[#E2EAFC]/80 z-30 rounded-xl w-full'
 				}
 			>
 				<Popover.Button className={"p-3 md:hidden block focus:outline-0 focus:outline"}>
@@ -22,7 +22,7 @@ function Panel({index, latitude, longitude}) {
 		return(
 			<div
 				className={
-					'absolute drop-shadow-sm -top-16 overflow-y-auto translate-x-2 md:translate-x-80 -ml-2 md:ml-3 backdrop-blur-md bg-[#E2EAFC]/30 z-30 rounded-xl w-full'
+					'absolute drop-shadow-sm -top-16 overflow-y-auto translate-x-2 md:translate-x-80 -ml-2 md:ml-3 backdrop-opacity-80 bg-[#E2EAFC]/80 z-30 rounded-xl w-full'
 				}
 			>
 				<Popover.Button className={"p-3 md:hidden block focus:outline-0 focus:outline"}>
@@ -123,7 +123,7 @@ function Panel({index, latitude, longitude}) {
 	return (
 		<div
 			className={
-				'absolute drop-shadow-sm -top-16 overflow-y-auto translate-x-2 md:translate-x-80 -ml-2 md:ml-3 backdrop-blur-md bg-[#E2EAFC]/30 z-30 rounded-xl w-full'
+				'absolute drop-shadow-sm -top-16 overflow-y-auto translate-x-2 md:translate-x-80 -ml-2 md:ml-3 backdrop-opacity-80 bg-[#E2EAFC]/80 z-30 rounded-xl w-full'
 			}
 		>
 			<Popover.Button className={"p-3 md:hidden block focus:outline-0 focus:outline"}>
