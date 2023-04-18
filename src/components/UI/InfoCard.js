@@ -259,10 +259,10 @@ export default function InfoCard({
 			<div className={'relative'}>
 				<Popover.Button
 					className={
-						'flex flex-row w-full items-center justify-between p-3 rounded-2xl focus:outline-0 focus:outline'
+						'flex -z-30 flex-row w-full items-center justify-between p-3 rounded-2xl focus:outline-0 focus:outline'
 					}
 				>
-					<div className={'flex flex-row items-center gap-2'}>
+					<div className={'flex -z-10 flex-row items-center gap-2'}>
 						<Image
 							src={`/weather-icons/${icon}`}
 							alt={'Icon'}
@@ -271,7 +271,7 @@ export default function InfoCard({
 						/>
 						<h1>{day}</h1>
 					</div>
-					<div className={'text-sm flex flex-col items-end'}>
+					<div className={'text-sm -z-10 flex flex-col items-end'}>
 						<h1>Min: {tempMin}°C</h1>
 						<h1>Max: {tempMax}°C</h1>
 					</div>
@@ -284,7 +284,7 @@ export default function InfoCard({
 					leaveFrom="transform scale-100 opacity-100"
 					leaveTo="transform scale-95 opacity-0"
 				>
-				<Popover.Panel className={"relative top-0"}>
+				<Popover.Panel>
 					<Panel latitude={latitude} longitude={longitude} index={index}/>
 				</Popover.Panel>
 				</Transition>

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Added a Panel with more details for a specific day from 7 days forecast">
-      <change afterPath="$PROJECT_DIR$/src/pages/api/7dayPanel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Fetch panel with API, add animations, and make it responsive">
+      <change beforePath="$PROJECT_DIR$/src/components/UI/InfoBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/InfoBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/InfoCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/InfoCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Weekly.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weekly.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,14 +97,7 @@
       <workItem from="1681725833852" duration="352000" />
       <workItem from="1681733583947" duration="22000" />
       <workItem from="1681829879941" duration="5284000" />
-      <workItem from="1681836825081" duration="8847000" />
-    </task>
-    <task id="LOCAL-00004" summary="Rename icons, create info card UI">
-      <created>1681239230164</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1681239230164</updated>
+      <workItem from="1681836825081" duration="9151000" />
     </task>
     <task id="LOCAL-00005" summary="Update Icons">
       <created>1681239610460</created>
@@ -442,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681840752585</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Fetch panel with API, add animations, and make it responsive">
+      <created>1681846659091</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1681846659091</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +460,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="If geolocation is unavailable, can search a city manual" />
     <MESSAGE value="Get city name using ip geolocation" />
     <MESSAGE value="Add geoip to packages" />
     <MESSAGE value="Delete geoip" />
@@ -485,6 +484,7 @@
     <MESSAGE value="Adding low and high temps to saved cities card" />
     <MESSAGE value="Adding Errors to apis" />
     <MESSAGE value="Added a Panel with more details for a specific day from 7 days forecast" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a Panel with more details for a specific day from 7 days forecast" />
+    <MESSAGE value="Fetch panel with API, add animations, and make it responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fetch panel with API, add animations, and make it responsive" />
   </component>
 </project>

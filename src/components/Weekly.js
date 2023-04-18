@@ -37,7 +37,7 @@ export default function Weekly({ longitude, latitude }) {
     return (
         <div
             className={
-                'flex flex-col w-[20.5rem] md:w-[21rem] gap-2 rounded-xl backdrop-opacity-50 bg-[#E2EAFC]/30 p-2 divide-y divide-[#B6CCFE]'
+                'flex -z-10 flex-col w-[20.5rem] md:w-[21rem] gap-2 rounded-xl backdrop-opacity-50 bg-[#E2EAFC]/30 p-2 divide-y divide-[#B6CCFE]'
             }
         >
             <h1 className={'text-sm font-thin uppercase text-center '}>
