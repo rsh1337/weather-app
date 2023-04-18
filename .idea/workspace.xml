@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Fix searchbar">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/HeaderInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/HeaderInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/api/currentMeteo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/currentMeteo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Adding more details in main page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +92,7 @@
       <workItem from="1681669791447" duration="18000" />
       <workItem from="1681725833852" duration="352000" />
       <workItem from="1681733583947" duration="22000" />
-      <workItem from="1681829879941" duration="2601000" />
+      <workItem from="1681829879941" duration="2975000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1681225698014</created>
@@ -428,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681726169039</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Adding more details in main page">
+      <created>1681832851941</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1681832851941</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,7 +448,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[In Progress] Adding 24h forecast" />
     <MESSAGE value="[In Progress] Adding min and max temps for 7 days forecast" />
     <MESSAGE value="Change package start port" />
     <MESSAGE value="Add geolocation to manifest.json file" />
@@ -471,6 +472,7 @@
     <MESSAGE value="." />
     <MESSAGE value="Fix wrong current temp" />
     <MESSAGE value="Fix searchbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix searchbar" />
+    <MESSAGE value="Adding more details in main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding more details in main page" />
   </component>
 </project>
