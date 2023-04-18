@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Changes for api panel" />
+    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Fix panel blur" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,13 +94,7 @@
       <workItem from="1681733583947" duration="22000" />
       <workItem from="1681829879941" duration="5284000" />
       <workItem from="1681836825081" duration="9992000" />
-    </task>
-    <task id="LOCAL-00007" summary="Create HeaderInfo">
-      <created>1681245803774</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1681245803774</updated>
+      <workItem from="1681848288327" duration="265000" />
     </task>
     <task id="LOCAL-00008" summary="Create HourPill and Temps per 24h">
       <created>1681249695239</created>
@@ -438,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681847503595</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Fix panel blur">
+      <created>1681848547038</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1681848547039</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Delete geoip" />
     <MESSAGE value="Adding Open wEATHER map for fetching city data" />
     <MESSAGE value="Adding current city name" />
     <MESSAGE value="Adding all icons for weather" />
@@ -481,6 +481,7 @@
     <MESSAGE value="Fetch panel with API, add animations, and make it responsive" />
     <MESSAGE value="Fix z-index for panel" />
     <MESSAGE value="Changes for api panel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes for api panel" />
+    <MESSAGE value="Fix panel blur" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix panel blur" />
   </component>
 </project>
