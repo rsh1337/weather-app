@@ -41,15 +41,19 @@ export default function CityCard({ cityName, latitude, longitude, closeSidebar }
 		>
 			<div className={'flex flex-col gap-1'}>
 				<Image
-					src={`/weather-icons/${data.weathercode}.svg`}
+					src={`/weather-icons/${data.current_weather.weathercode}.svg`}
 					alt={'Icon'}
 					width={35}
 					height={35}
 				/>
 				<h1 className={'font-semibold'}>{cityName}</h1>
 			</div>
-			<div className={'flex flex-col items-center gap-1 mr-2'}>
-				<h1 className={'text-2xl font-light'}>{data.temperature} °C</h1>
+			<div className={'flex flex-col items-center gap-1'}>
+				<h1 className={'text-2xl font-light'}>{data.current_weather.temperature} °C</h1>
+				<div className={'flex flex-row gap-3 text-sm font-thin'}>
+					<h1>H: {data.daily.temperature_2m_max} °C</h1>
+					<h1>L: {data.daily.temperature_2m_min} °C</h1>
+				</div>
 			</div>
 		</div>
 	);
