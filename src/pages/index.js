@@ -161,8 +161,8 @@ export default function Index({ isOpen, closeSidebar }) {
 					>
 						<HeaderInfo
 							icon={`${meteo.data[0].weathercode}.svg`}
-							// lowTemp={'10'}
-							// highTemp={'20'}
+							lowTemp={meteo.data[0].temperature_2m_min}
+							highTemp={meteo.data[0].temperature_2m_max}
 							temp={meteo.data[0].temperature}
 							city={`${meteo.city}`}
 						/>
@@ -178,7 +178,7 @@ export default function Index({ isOpen, closeSidebar }) {
 						<div className={'col-span-2 row-span-3'}>
 							<Weekly latitude={latitude} longitude={longitude} />
 						</div>
-						{/*<InfoBox icon={'sunrise.svg'} data={'09:00PM'} title={'Sun Rise'} />*/}
+						<InfoBox icon={'sunrise.svg'} data={meteo.data[0].sunrise} title={'Sun Rise'} />
 						<InfoBox
 							icon={'humidity.svg'}
 							data={`${meteo.data[0].relativehumidity_2m}%`}
@@ -198,6 +198,21 @@ export default function Index({ isOpen, closeSidebar }) {
 							icon={'umbrella.svg'}
 							data={`${meteo.data[0].precipitation_probability}%`}
 							title={'Precipitation'}
+						/>
+						<InfoBox
+							icon={'temperature.svg'}
+							data={`${meteo.data[0].apparent_temperature}°C`}
+							title={'Feeling Temperature'}
+						/>
+						<InfoBox
+							icon={'2.svg'}
+							data={`${meteo.data[0].cloudcover}%`}
+							title={'Cloud Cover'}
+						/>
+						<InfoBox
+							icon={'eye.svg'}
+							data={`${meteo.data[0].visibility}m`}
+							title={'Visibility'}
 						/>
 					</div>
 				</>
