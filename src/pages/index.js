@@ -203,6 +203,10 @@ export default function Index({ isOpen, closeSidebar }) {
 							icon={'temperature.svg'}
 							data={`${meteo.data[0].apparent_temperature}°C`}
 							title={'Feeling Temperature'}
+							extended={true}
+							option={"apparent_temperature"}
+							latitude={latitude}
+							longitude={longitude}
 						/>
 						<InfoBox
 							icon={'2.svg'}
