@@ -165,6 +165,11 @@ export default function City({ isOpen }) {
                             icon={'humidity.svg'}
                             data={`${meteo.data[0].relativehumidity_2m}%`}
                             title={'Humidity'}
+                            unit={"%"}
+                            extended={true}
+                            option={"relativehumidity_2m"}
+                            latitude={latitude}
+                            longitude={longitude}
                         />
                         <InfoBox
                             icon={'windy.svg'}
@@ -180,16 +185,31 @@ export default function City({ isOpen }) {
                             icon={'umbrella.svg'}
                             data={`${meteo.data[0].precipitation_probability}%`}
                             title={'Precipitation'}
+                            unit={"%"}
+                            extended={true}
+                            option={"precipitation_probability"}
+                            latitude={latitude}
+                            longitude={longitude}
                         />
                         <InfoBox
                             icon={'temperature.svg'}
                             data={`${meteo.data[0].apparent_temperature}°C`}
                             title={'Feeling Temperature'}
+                            unit={"°C"}
+                            extended={true}
+                            option={"apparent_temperature"}
+                            latitude={latitude}
+                            longitude={longitude}
                         />
                         <InfoBox
                             icon={'2.svg'}
                             data={`${meteo.data[0].cloudcover}%`}
                             title={'Cloud Cover'}
+                            unit={"%"}
+                            extended={true}
+                            option={"cloudcover"}
+                            latitude={latitude}
+                            longitude={longitude}
                         />
                         <InfoBox
                             icon={'eye.svg'}
