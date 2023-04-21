@@ -4,14 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Create panel for item box, adding charts for some items, make it responsive">
-      <change afterPath="$PROJECT_DIR$/readme/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/logo.png" afterDir="false" />
+    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Create readme page + add pwa popup for ios">
+      <change afterPath="$PROJECT_DIR$/readme/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/img_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/img_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/img_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/img_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/img_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/img_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/img_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/img_9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,14 +121,7 @@
       <workItem from="1681898214535" duration="600000" />
       <workItem from="1681906069602" duration="8569000" />
       <workItem from="1681914694121" duration="605000" />
-      <workItem from="1682072432719" duration="2956000" />
-    </task>
-    <task id="LOCAL-00012" summary="Responsive sidebar">
-      <created>1681294502502</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1681294502502</updated>
+      <workItem from="1682072432719" duration="6581000" />
     </task>
     <task id="LOCAL-00013" summary="Responsive grid cols">
       <created>1681296882140</created>
@@ -455,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681914642594</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Create readme page + add pwa popup for ios">
+      <created>1682075497465</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1682075497466</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +484,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Deleting Console.logs + fix search button" />
     <MESSAGE value="adding with 2 more icons" />
     <MESSAGE value="Implement search bar + api" />
     <MESSAGE value="Create save city button" />
@@ -498,6 +508,7 @@
     <MESSAGE value="Fix panel color" />
     <MESSAGE value="Create panel for item box" />
     <MESSAGE value="Create panel for item box, adding charts for some items, make it responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create panel for item box, adding charts for some items, make it responsive" />
+    <MESSAGE value="Create readme page + add pwa popup for ios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create readme page + add pwa popup for ios" />
   </component>
 </project>
