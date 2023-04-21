@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/rsh1337/weather-app">
-    <img src="readme/logo.png" alt="Logo" width="80" height="80">
+    <img src="public/weather-icons/moon.svg" alt="Logo" width="80" height="80">
   </a>
         <h3 align="center">Weather App</h3>
 </div>

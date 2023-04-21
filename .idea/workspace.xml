@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Create readme page + add pwa popup for ios">
+    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Complete version of readme">
       <change afterPath="$PROJECT_DIR$/readme/img_1.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/readme/img_10.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/readme/img_11.png" afterDir="false" />
@@ -121,14 +121,7 @@
       <workItem from="1681898214535" duration="600000" />
       <workItem from="1681906069602" duration="8569000" />
       <workItem from="1681914694121" duration="605000" />
-      <workItem from="1682072432719" duration="6581000" />
-    </task>
-    <task id="LOCAL-00013" summary="Responsive grid cols">
-      <created>1681296882140</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1681296882140</updated>
+      <workItem from="1682072432719" duration="6903000" />
     </task>
     <task id="LOCAL-00014" summary="Bg blur if sidebar is open">
       <created>1681299679622</created>
@@ -466,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682075497466</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Complete version of readme">
+      <created>1682079851249</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1682079851249</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,7 +484,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding with 2 more icons" />
     <MESSAGE value="Implement search bar + api" />
     <MESSAGE value="Create save city button" />
     <MESSAGE value="Sidebar cand now fetch data from saved cities, and get current informations" />
@@ -509,6 +508,7 @@
     <MESSAGE value="Create panel for item box" />
     <MESSAGE value="Create panel for item box, adding charts for some items, make it responsive" />
     <MESSAGE value="Create readme page + add pwa popup for ios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create readme page + add pwa popup for ios" />
+    <MESSAGE value="Complete version of readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete version of readme" />
   </component>
 </project>
