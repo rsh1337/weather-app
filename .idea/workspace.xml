@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Complete version of readme">
-      <change afterPath="$PROJECT_DIR$/readme/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/img_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/img_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/img_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/img_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/img_9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="change logo img" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,14 +102,7 @@
       <workItem from="1681898214535" duration="600000" />
       <workItem from="1681906069602" duration="8569000" />
       <workItem from="1681914694121" duration="605000" />
-      <workItem from="1682072432719" duration="6903000" />
-    </task>
-    <task id="LOCAL-00014" summary="Bg blur if sidebar is open">
-      <created>1681299679622</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1681299679622</updated>
+      <workItem from="1682072432719" duration="7335000" />
     </task>
     <task id="LOCAL-00015" summary="Fix 7day forecast size for mobile">
       <created>1681299879515</created>
@@ -466,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682079851249</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="change logo img">
+      <created>1682080282267</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1682080282267</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,7 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement search bar + api" />
     <MESSAGE value="Create save city button" />
     <MESSAGE value="Sidebar cand now fetch data from saved cities, and get current informations" />
     <MESSAGE value="When search, sidebar automatically close" />
@@ -509,6 +489,7 @@
     <MESSAGE value="Create panel for item box, adding charts for some items, make it responsive" />
     <MESSAGE value="Create readme page + add pwa popup for ios" />
     <MESSAGE value="Complete version of readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete version of readme" />
+    <MESSAGE value="change logo img" />
+    <option name="LAST_COMMIT_MESSAGE" value="change logo img" />
   </component>
 </project>
