@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Create panel for item box">
-      <change afterPath="$PROJECT_DIR$/src/pages/api/24hrsPanel.js" afterDir="false" />
+    <list default="true" id="c34aebcd-e38e-4e57-a0f8-8779ec506273" name="Changes" comment="Create panel for item box, adding charts for some items, make it responsive">
+      <change afterPath="$PROJECT_DIR$/readme/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/InfoBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/InfoBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/city.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,25 +30,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rares-andrei/Developer/weather-app&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/rares-andrei/Developer/weather-app/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/rares-andrei/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/231.8109.174/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/rares-andrei/Developer/weather-app/readme",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/rares-andrei/Developer/weather-app/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.sync",
+    "ts.external.directory.path": "/Users/rares-andrei/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/231.8109.174/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/readme" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/UI" />
     </key>
@@ -105,14 +108,9 @@
       <workItem from="1681848288327" duration="265000" />
       <workItem from="1681848635342" duration="432000" />
       <workItem from="1681898214535" duration="600000" />
-      <workItem from="1681906069602" duration="8451000" />
-    </task>
-    <task id="LOCAL-00011" summary="[In Progress] Responsive">
-      <created>1681255561398</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1681255561398</updated>
+      <workItem from="1681906069602" duration="8569000" />
+      <workItem from="1681914694121" duration="605000" />
+      <workItem from="1682072432719" duration="2956000" />
     </task>
     <task id="LOCAL-00012" summary="Responsive sidebar">
       <created>1681294502502</created>
@@ -450,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681907338423</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Create panel for item box, adding charts for some items, make it responsive">
+      <created>1681914642594</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1681914642594</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding all icons for weather" />
     <MESSAGE value="Deleting Console.logs + fix search button" />
     <MESSAGE value="adding with 2 more icons" />
     <MESSAGE value="Implement search bar + api" />
@@ -493,6 +497,7 @@
     <MESSAGE value="Fix panel blur" />
     <MESSAGE value="Fix panel color" />
     <MESSAGE value="Create panel for item box" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create panel for item box" />
+    <MESSAGE value="Create panel for item box, adding charts for some items, make it responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create panel for item box, adding charts for some items, make it responsive" />
   </component>
 </project>
