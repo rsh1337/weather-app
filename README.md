@@ -72,7 +72,7 @@ npm run start
 ```
 
 6. Access the website
-7. 
+
 ```
 http://localhost:3003
 ```
