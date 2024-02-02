@@ -1,15 +1,23 @@
 export default async function handler(req, res) {
-  const {long, lat} = req.query
+  const { long, lat } = req.query
   const response = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${long}&hourly=temperature_2m,relativehumidity_2m,apparent_temperature,precipitation_probability,weathercode,cloudcover,visibility,windspeed_10m,uv_index&daily=temperature_2m_max,temperature_2m_min,sunrise&current_weather=true&forecast_days=1&timezone=auto`);
   const data = await response.json();
-  if (data.error){
-    return res.status(400).json({message: data.reason, error: true});
+  if (data.error) {
+    return res.status(400).json({ message: data.reason, error: true });
   }
   const hourlyData = data.hourly;
   const currentWeatherData = data.current_weather;
+
+  const currentDate = new Date();
+  const currentHour = currentDate.getHours();
+
   const dataForTime = hourlyData.time.map((time) => {
     const index = hourlyData.time.indexOf(time);
-    if (currentWeatherData.time === time) {
+
+    const timestampDate = new Date(time);
+    const timestampHour = timestampDate.getHours();
+
+    if (timestampHour === currentHour) {
       return {
         time,
         temperature: data.current_weather.temperature,
@@ -28,9 +36,9 @@ export default async function handler(req, res) {
       };
     }
   }).filter((data) => data !== undefined);
-  console.log(dataForTime)
+
   const APIKey = process.env.OPENWEATHERKEY
   const responseCity = await fetch(`https://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${long}&limit=1&appid=${APIKey}`);
   const dataCity = await responseCity.json();
-  return res.status(200).json({data: dataForTime, city: dataCity[0].name});
+  return res.status(200).json({ data: dataForTime, city: dataCity[0].name });
 }

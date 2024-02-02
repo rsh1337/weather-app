@@ -87,7 +87,7 @@ function Panel({ latitude, longitude, option, unit, title }) {
 		responsive: true,
 		maintainAspectRatio: false,
 		scales: {
-			x: { display: false },
+			x: { display: true },
 			y: {
 				ticks: {
 					callback: (value) => {
@@ -100,14 +100,14 @@ function Panel({ latitude, longitude, option, unit, title }) {
 	return (
 		<div
 			className={
-				'z-20 absolute drop-shadow-sm overflow-y-auto -translate-y-[10rem] lg:-translate-y-[5rem] lg:-translate-x-[5rem] 2xl:-translate-x-[10rem] backdrop-opacity-10 bg-[#E2EAFC]/95 md:bg-[#E2EAFC]/95 rounded-xl w-full lg:w-[20rem]'
+				'z-20 absolute drop-shadow-sm overflow-y-auto -translate-y-[10rem] lg:-translate-y-[5rem] lg:-translate-x-[5rem] 2xl:-translate-x-[10rem] backdrop-opacity-10 bg-[#E2EAFC]/95 md:bg-[#E2EAFC]/95 rounded-xl w-[10rem] lg:w-[20rem]'
 			}
 		>
 			<h1 className={'font-light text-center mb-1 md:mt-2 mt-0'}>
 				{title}
 			</h1>
 			<div className={"h-max"}>
-			<Line options={options} data={dataDetails} />
+				<Line options={options} data={dataDetails} />
 			</div>
 		</div>
 	);
