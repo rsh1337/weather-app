@@ -74,7 +74,7 @@ npm run start
 6. Access the website
 
 ```
-http://localhost:3003
+http://localhost:3007
 ```
 
 ## Usage
