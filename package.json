@@ -5,16 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 3003",
+    "start": "next start -p 3007",
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.17",
-    "chart.js": "^4.4.0",
-    "eslint": "8.53.0",
-    "eslint-config-next": "14.0.1",
+    "@headlessui/react": "^1.7.18",
+    "chart.js": "^4.4.1",
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.1.0",
     "hamburger-react": "^2.5.0",
-    "next": "14.0.1",
+    "next": "14.1.0",
     "next-pwa": "^5.6.0",
     "react": "18.2.0",
     "react-chartjs-2": "^5.2.0",
@@ -24,10 +24,10 @@
     "swr": "^2.2.4"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.31",
-    "prettier": "^3.0.3",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "prettier": "^3.2.4",
     "tailwind-scrollbar": "^3.0.5",
-    "tailwindcss": "^3.3.5"
+    "tailwindcss": "^3.4.1"
   }
 }

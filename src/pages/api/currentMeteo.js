@@ -28,6 +28,7 @@ export default async function handler(req, res) {
       };
     }
   }).filter((data) => data !== undefined);
+  console.log(dataForTime)
   const APIKey = process.env.OPENWEATHERKEY
   const responseCity = await fetch(`https://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${long}&limit=1&appid=${APIKey}`);
   const dataCity = await responseCity.json();
