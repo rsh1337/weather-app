@@ -9,26 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^2.2.0",
-    "caniuse-lite": "^1.0.30001706",
-    "chart.js": "^4.4.8",
-    "eslint": "9.23.0",
-    "eslint-config-next": "15.2.3",
+    "@headlessui/react": "^2.2.9",
+    "caniuse-lite": "^1.0.30001759",
+    "chart.js": "^4.5.1",
+    "eslint": "9.39.1",
+    "eslint-config-next": "16.0.7",
     "hamburger-react": "^2.5.2",
-    "next": "15.2.4",
+    "next": "16.0.7",
     "next-pwa": "^5.6.0",
-    "react": "19.0.0",
-    "react-chartjs-2": "^5.3.0",
-    "react-dom": "19.0.0",
-    "react-hot-toast": "^2.5.2",
+    "react": "19.2.1",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "19.2.1",
+    "react-hot-toast": "^2.6.0",
     "react-ios-pwa-prompt": "^2.0.6",
-    "swr": "^2.3.3"
+    "swr": "^2.3.7"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.3",
-    "prettier": "^3.5.3",
-    "tailwind-scrollbar": "^4.0.1",
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6",
+    "prettier": "^3.7.4",
+    "tailwind-scrollbar": "^4.0.2",
     "tailwindcss": "^3.4.17"
   }
 }
